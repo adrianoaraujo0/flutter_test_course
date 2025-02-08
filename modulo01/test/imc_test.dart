@@ -1,12 +1,6 @@
 import 'package:aula_02/imc.dart';
 import 'package:test/test.dart';
 
-/*
-  throwsA: é um matcher que é usado para verificar se uma função lança uma excessão quando excutada.
-  isA<T>: é um matcher que verifica se um objeto é de determinado tipo. 
-  throwsA(isA<Exception>): verifica se a função lança uma excessão do tipo Exception. 
-*/
-
 void main() {
   test("Deve efetuar o cálculo do IMC", () {
     final result = calcIMC(89, 1.75);
