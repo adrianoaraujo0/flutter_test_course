@@ -8,9 +8,17 @@
   ******Ciclo de Vida Unitário******
   setUp: executa o código antes de cada teste
   tearDown: executa o código depois de cada teste
-  
+
   ******Ciclo de Vida da switch de teste******
   setUpAll: executa os códigos antes da switch
   tearDownAll: executa os códigos depois da switch
+*/
 
+
+/*
+  PADRÃO DE TESTE(TRIPLE A)
+
+  Arrange: Preparação para executar o teste.
+  Act: executar o teste.
+  Assert: Resultado esperado pós Act.
 */
