@@ -22,3 +22,13 @@
   Act: executar o teste.
   Assert: Resultado esperado pós Act.
 */
+
+/*
+  Matchers mais usados
+  - equals
+  - isA
+  - greaterThan
+  - isPositive
+  - matcher(RegExp): Só pode ser usado se o actual for String.
+
+*/
